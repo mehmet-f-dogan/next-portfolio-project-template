@@ -15,10 +15,7 @@ export default function LandingPage() {
           <h2 className="title-font mb-4 text-2xl font-medium text-white sm:text-3xl">
             Product Tagline
           </h2>
-          <p className="mb-8 leading-relaxed">
-            Product Description
-
-          </p>
+          <p className="mb-8 leading-relaxed">Product Description</p>
           <nav className="flex justify-center">
             <Link
               href="/signup"

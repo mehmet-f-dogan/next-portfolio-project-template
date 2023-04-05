@@ -18,7 +18,9 @@ const Header = () => {
           <nav className="flex w-full items-center justify-between">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <h1 className="select-none font-bold text-white">Product Name</h1>
+                <h1 className="select-none font-bold text-white">
+                  Product Name
+                </h1>
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">

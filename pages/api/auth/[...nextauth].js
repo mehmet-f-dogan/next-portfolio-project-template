@@ -12,7 +12,7 @@ const authOptions = {
       async authorize(credentials, req) {
         const res = await fetch(`${process.env.GENERIC_BACKEND_URL}/auth`, {
           method: "POST",
-          body: JSON.stringify({...credentials, domain:process.env.DOMAIN}),
+          body: JSON.stringify({ ...credentials, domain: process.env.DOMAIN }),
           headers: { "Content-Type": "application/json" },
         });
         try {

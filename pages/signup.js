@@ -5,7 +5,7 @@ import Router from "next/router";
 import { getServerSideSession } from "./api/auth/[...nextauth]";
 import { toast } from "react-toastify";
 
-export default function SignUpPage () {
+export default function SignUpPage() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-100">
       <div className="mx-auto w-full max-w-md">
@@ -140,7 +140,7 @@ export default function SignUpPage () {
       </div>
     </div>
   );
-};
+}
 
 export async function getServerSideProps(context) {
   const session = await getServerSideSession(context);
@@ -158,4 +158,3 @@ export async function getServerSideProps(context) {
     props: {},
   };
 }
-

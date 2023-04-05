@@ -140,7 +140,7 @@ export default function LoginPage() {
       </div>
     </div>
   );
-};
+}
 
 export async function getServerSideProps(context) {
   const session = await getServerSideSession(context);
